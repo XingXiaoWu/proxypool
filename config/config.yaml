@@ -1,16 +1,33 @@
 # your domain
-domain: example.com
-
-# database url
-database_url: ""
+domain: xingxiaowu.cn
 
 # cloudflare api
 cf_email: ""
 cf_key: ""
+
+# (optinal) postgresql database info
+database_url: ""
+
+# interval between each execution
+cron-interval:        # default 60 min
+
+# speedtest
+speedtest: false      # default false. Warning: this will consume large network resources.
+speedtest-interval:   # default 12 hours
+connection:           # default 5.
+timeout:              # default 10 (seconds).
+
+# active proxy check
+active-interval:      # default 1h
+active-frequency:     # default 100/h
 
 # source definition file
 source-files:
   # use local file
   - source.yaml
   # use web file
-  - https://example.com/source.yaml
+  # - https://example.com/source.yaml
+  # https://github.com/valentina-ee/proxypool-source.yaml
+  - https://raw.githubusercontent.com/Alex950808/proxypool038/master/config/source.yaml
+  - https://raw.githubusercontent.com/wishcaiji/proxypool/master/config/source.yaml
+  - https://raw.githubusercontent.com/money-fly/proxypool/master/config/source.yaml

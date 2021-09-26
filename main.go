@@ -28,7 +28,7 @@ func main() {
 		configFilePath = os.Getenv("CONFIG_FILE")
 	}
 	if configFilePath == "" {
-		configFilePath = "config.yaml"
+		configFilePath = "./config/config.yaml"
 	}
 	err := app.InitConfigAndGetters(configFilePath)
 	if err != nil {

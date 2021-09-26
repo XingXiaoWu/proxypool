@@ -26,6 +26,8 @@ require (
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/saintfish/chardet v0.0.0-20120816061221-3af4cd4741ca // indirect
 	github.com/temoto/robotstxt v1.1.1 // indirect
+	golang.org/x/tools v0.1.6 // indirect
+	golang.org/x/tools/gopls v0.7.2 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/appengine v1.6.6 // indirect
 	google.golang.org/protobuf v1.25.0 // indirect
