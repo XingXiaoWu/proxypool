@@ -3,9 +3,9 @@ package provider
 import (
 	"strings"
 
-	"github.com/zu1k/proxypool/pkg/proxy"
+	"github.com/XingXiaoWu/proxypool/pkg/proxy"
 
-	"github.com/zu1k/proxypool/pkg/tool"
+	"github.com/XingXiaoWu/proxypool/pkg/tool"
 )
 
 type SSRSub struct {
