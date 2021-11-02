@@ -15,7 +15,20 @@
     <img src="https://img.shields.io/github/release/XingXiaoWu/proxypool/all.svg?style=flat-square">
   </a>
 </p>
+---
 
+## wx
+
+## 拉依赖
+```
+go get
+```
+
+## 跑起来
+```
+go run main.go -c ./config/config.yaml
+```
+---
 ## 支持
 
 - 支持ss、ssr、vmess、trojan多种类型
